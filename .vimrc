@@ -209,7 +209,7 @@ set ruler
 "
 " vim uses the indent of the previous line for a newly created line
 set autoindent
-set cindent
+" set cindent autoindents + comments the next line if prev line was a comment
 "
 " how many cmd's and search patterns have to be kept in the history
 set history=256
